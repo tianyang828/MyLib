@@ -19,7 +19,7 @@ Pod::Spec.new do |spec|
   spec.exclude_files = "Classes/Exclude"
   
   # spec.public_header_files = "Classes/**/*.h"
-  s.framework    = "UIKit"
+  spec.framework    = "UIKit"
   spec.requires_arc = true
   # spec.resource  = "icon.png"
   # spec.resources = "Resources/*.png"
