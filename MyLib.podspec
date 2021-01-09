@@ -7,7 +7,7 @@ Pod::Spec.new do |spec|
   spec.summary      = "基类组件"
   spec.description  = "test pod 组件"
 
-  spec.homepage     = "https://github.com/tianyang828/MyLib.git"
+  spec.homepage     = "https://github.com/tianyang828/MyLib"
  
   spec.license      = "MIT"
   # spec.license      = { :type => "MIT", :file => "FILE_LICENSE" }
@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   spec.source       = { :git => "https://github.com/tianyang828/MyLib.git", :tag => "0.0.1" }
 
   spec.source_files  = "Classes", "Classes/**/*.{h,m}"
-  spec.exclude_files = "Classes/Exclude"
+  #spec.exclude_files = "Classes/Exclude"
   
   # spec.public_header_files = "Classes/**/*.h"
   spec.framework    = "UIKit"
